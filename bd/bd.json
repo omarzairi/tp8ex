@@ -1,0 +1,22 @@
+{
+  "livres": [
+    {
+      "id": 1,
+      "titre": "UML2 par la pratique",
+      "prix": 43.5,
+      "nouveau": false
+    },
+    {
+      "id": 2,
+      "titre": "Introduction à Angular",
+      "prix": 35.2,
+      "nouveau": true
+    },
+    {
+      "titre": "vbn,;:",
+      "prix": "105",
+      "nouvelle": true,
+      "id": 3
+    }
+  ]
+}

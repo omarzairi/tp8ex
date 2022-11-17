@@ -3,16 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LivresComponent } from './livres/livres.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
-  declarations: [
-    AppComponent,
-    LivresComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, LivresComponent],
+  imports: [BrowserModule, HttpClientModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
